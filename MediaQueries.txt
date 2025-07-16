@@ -1,0 +1,45 @@
+@media (max-width: 1200px) {
+  .logo { margin-left: 50px; }
+  .SignIn { margin-right: 50px; }
+  .Big-Flex, .last-flex { margin-left: 50px; margin-right: 50px; }
+  .trend, .reasons, .frequent-questions, .Contact { margin-left: 50px; }
+}
+
+@media (max-width: 992px) {
+  .heading { font-size: 3rem; }
+  .box-above-bg { width: 90%; }
+  .MailBox, .Get-start-button { width: 100%; margin: 5px 0; }
+  .getting-started { flex-direction: column; align-items: center; }
+  .MailBox2, .Get-start-again-button { width: 100%; margin: 5px 0; }
+  .getting-started-again { flex-direction: column; }
+  .some-reasons { flex-direction: column; align-items: center; height: auto; }
+  .reason { width: 90%; margin-bottom: 20px; }
+}
+
+@media (max-width: 768px) {
+  .navbar { flex-direction: column; align-items: center; height: auto; }
+  .logo, .SignIn { margin: 10px 0; }
+  .box-above-bg { transform: translate(-50%, 60%); }
+  .movie-list { flex-direction: column; align-items: center; }
+}
+
+@media (max-width: 576px) {
+  .heading { font-size: 2.2rem; }
+  .price, .line { font-size: 1rem; }
+  .MailBox { height: 35px; font-size: 0.9rem; }
+  .Get-start-button { height: 35px; font-size: 1rem; }
+  .MailBox2, .Get-start-again-button { height: 45px; font-size: 1rem; }
+  .trend, .reasons, .frequent-questions, .Contact {
+    font-size: 1.3rem;
+    margin-left: 20px;
+  }
+  .Big-Flex, .last-flex {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .reason {
+    font-size: medium;
+    height: auto;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  z-index: -99;
+  overflow-x: hidden;
+}
+
+:root {
+  --themecolor: rgba(216, 7, 7, 0.897);
+  --seccolor: white;
+  --mostly: black;
+  --hoverr: rgb(228, 11, 11);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: opacity(0.3);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: transparent;
+  width: 100vw;
+  height: 4rem;
+  margin-top: 20px;
+}
+
+.logo {
+  margin-left: 170px;
+  height: 45px;
+}
+
+.SignIn {
+  background-color: var(--themecolor);
+  height: 40px;
+  width: 100px;
+  margin-right: 180px;
+  margin-top: 10px;
+  border-radius: 7px;
+  font-size: large;
+  color: var(--seccolor);
+}
+
+.SignIn:hover {
+  background-color: var(--hoverr);
+}
+
+.box-above-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* transform: translate(-125%, 10%); */ /* Remove or fix this line */
+  box-sizing: border-box;
+  width: 45rem;
+  z-index: 9;
+
+  position: absolute; /* Make sure it's positioned above the image */
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 95%);
+}
+
+.heading {
+  color: var(--seccolor);
+  font-size: 4rem;
+  text-align: center;
+  font-family: unset;
+  font-weight: 400;
+}
+
+.price {
+  color: var(--seccolor);
+  text-align: center;
+  font-size: 1.15rem;
+  font-family: unset;
+}
+
+.line {
+  color: var(--seccolor);
+  margin-top: 10px;
+}
+
+.getting-started {
+  display: flex;
+  margin-top: 15px;
+}
+
+.MailBox {
+  background: transparent;
+  background-clip: padding-box;
+  border: 3px solid var(--seccolor);
+  color: var(--seccolor);
+  width: 300px;
+  height: 40px;
+}
+
+.MailBox::placeholder {
+  color: var(--seccolor);
+}
+
+.Get-start-button {
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  margin-left: 5px;
+  background-color: var(--themecolor);
+  font-size: larger;
+  font-family: unset;
+  color: var(--seccolor);
+}
+
+.Get-start-button:hover {
+  background-color: var(--hoverr);
+}
+
+.redline {
+  border: var(--themecolor);
+  background-color: var(--themecolor);
+  width: 100vw;
+  height: 5px;
+}
+
+.BgPic-TxtBox-Wrapper {
+  height: 89vh;
+}
+
+.trend {
+  border: var(--mostly);
+  color: var(--seccolor);
+  height: 70px;
+  font-family: unset;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.movie-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  border: var(--mostly);
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: var(--mostly);
+}
+
+.kapil img {
+  height: 220px;
+}
+
+.movie img {
+  border-radius: 15px;
+  transition: transform 0.3s ease 0.3s;
+}
+
+.movie img:hover {
+  transform: scale(1.2);
+}
+
+.reasons {
+  border: var(--mostly);
+  background-color: var(--mostly);
+  color: var(--seccolor);
+  height: 70px;
+  font-family: unset;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.some-reasons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: auto;
+  gap: 5px;
+  border: var(--mostly);
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: var(--mostly);
+  height: 320px;
+}
+
+.reason {
+  border: transparent;
+  background-color: rgb(107, 109, 114);
+  border-radius: 15px;
+  padding: 9px;
+  width: 350px;
+  height: 290px;
+  font-size: larger;
+  color: var(--seccolor);
+  transition: transform 0.1s ease 0.1s;
+}
+
+.reason:hover {
+  transform: scale(1.1);
+}
+
+.paras {
+  font-size: large;
+  color: rgb(188, 190, 197);
+}
+
+.frequent-questions {
+  border: var(--mostly);
+  background-color: var(--mostly);
+  color: var(--seccolor);
+  height: 70px;
+  font-family: unset;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.question-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.question {
+  border: var(--mostly);
+  background-color: rgb(40, 38, 38);
+  color: var(--seccolor);
+  height: 95px;
+  width: 80%;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: 200;
+  align-content: center;
+  padding-left: 20px;
+}
+
+.ready {
+  border: var(--mostly);
+  background-color: var(--mostly);
+  color: var(--seccolor);
+  text-align: center;
+  align-content: center;
+  margin-top: 90px;
+  margin-bottom: 15px;
+  font-size: larger;
+}
+
+.getting-started-again {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.MailBox2 {
+  background: transparent;
+  background-clip: padding-box;
+  border: 3px solid var(--seccolor);
+  color: var(--seccolor);
+  width: 500px;
+  height: 60px;
+  font-size: larger;
+}
+
+.MailBox2::placeholder {
+  color: rgb(181, 170, 170);
+}
+
+.Get-start-again-button {
+  width: 230px;
+  height: 60px;
+  border-radius: 4px;
+  margin-left: 5px;
+  background-color: var(--themecolor);
+  font-size: x-large;
+  font-family: unset;
+  color: var(--seccolor);
+}
+
+.Get-start-again-button:hover {
+  background-color: var(--hoverr);
+}
+
+.Contact {
+  height: 70px;
+  font-family: unset;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.Contact a {
+  color: rgb(188, 181, 181);
+}
+
+.Big-Flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background-color: var(--mostly);
+  margin-left: 150px;
+  margin-right: 280px;
+  height: 120px;
+}
+
+.inner-flexes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inner-flexes a {
+  color: rgb(176, 170, 170);
+}
+
+.last-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 280px;
+  margin-bottom: 150px;
+  background-color: var(--mostly);
+  color: rgb(134, 137, 139);
+  font-size: small;
+}
+
+.language {
+  width: 110px;
+  height: 33px;
+  font-size: medium;
+  background-color: var(--mostly);
+  color: var(--seccolor);
+  border: 1px solid var(--seccolor);
+  border-radius: 4px;
+}
+
+.pak {
+  font-size: medium;
+  color: rgb(188, 181, 181);
+}
+

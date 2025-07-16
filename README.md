@@ -50,14 +50,6 @@ Netflix-Clone/
 
 ---
 
-## 🧪 Live Preview / Screenshots
-
-You can include a screenshot of your clone once hosted or captured:
-
-![Netflix Clone Preview](Assets/netflix-preview.png)
-
----
-
 ## 🚀 Getting Started
 
 To see this project in action:

@@ -1,6 +1,3 @@
-Sure! Here's your **final, long, engaging, single-block README** with a **playful and motivating ending** — perfect to top off your Netflix homepage clone project:
-
----
 
 # 🎬 Netflix Homepage Clone
 

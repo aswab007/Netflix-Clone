@@ -1,9 +1,7 @@
 
 # 🎬 Netflix Homepage Clone
 
-This is a **fully static clone** of the iconic Netflix homepage — built from scratch using **only HTML and CSS**. The project is a creative front-end exercise that brings together visual aesthetics, layout precision, and modern CSS styling, all in one. The layout mimics Netflix’s official landing page closely, giving that familiar cinematic vibe.
-
-> ⚠️ Note: It’s **not responsive yet**, but don’t worry — that’s the next mission!
+This is a **static clone** of the iconic Netflix homepage — built from scratch using **only HTML and CSS**. The project is a creative front-end exercise that brings together visual aesthetics, layout precision, and modern CSS styling, all in one. The layout mimics Netflix’s official landing page closely, giving that familiar cinematic vibe.
 
 ---
 
@@ -11,13 +9,13 @@ This is a **fully static clone** of the iconic Netflix homepage — built from s
 
 This project captures the look and feel of Netflix's real homepage. Here's what you’ll find:
 
-* 🔴 **Netflix-style navbar** with the red logo and a Sign In button
-* 🖼️ **Fullscreen hero section** with a faded background image overlay
-* ✨ Large title and subheading in the center — just like Netflix says “Unlimited movies, TV shows and more.”
-* 📧 **Email input field** and a big red **Get Started** button
-* 🔥 A trending section showing popular movie covers
-* 📦 Hover animations on movie posters for extra flair
-* ❓ An FAQ-style section for a realistic layout touch
+* 🔴 **Netflix-style navbar** with the red logo and a Sign In button  
+* 🖼️ **Fullscreen hero section** with a faded background image overlay  
+* ✨ Large title and subheading in the center — just like Netflix says “Unlimited movies, TV shows and more.”  
+* 📧 **Email input field** and a big red **Get Started** button  
+* 🔥 A trending section showing popular movie covers  
+* 📦 Hover animations on movie posters for extra flair  
+* ❓ An FAQ-style section for a realistic layout touch  
 * 👣 A detailed footer, contact section, and regional selector (like Pakistan 🇵🇰)
 
 All done without JavaScript or libraries — just raw HTML + CSS magic.
@@ -26,9 +24,9 @@ All done without JavaScript or libraries — just raw HTML + CSS magic.
 
 ## 💻 Technologies Used
 
-* 🧱 **HTML5** – Semantic, structured, and scalable
-* 🎨 **CSS3** – For layout, colors, transitions, and effects
-* 🧭 **Flexbox** – For responsive-ish alignment (even if the full responsiveness is WIP 😉)
+* 🧱 **HTML5** – Semantic, structured, and scalable  
+* 🎨 **CSS3** – For layout, colors, transitions, and effects  
+* 🧭 **Flexbox** – For layout and alignment  
 * 🎯 **CSS Variables** – For quick theme updates and consistent styling
 
 ---
@@ -60,7 +58,7 @@ To see this project in action:
    git clone https://github.com/aswab007/netflix-clone.git
    ```
 
-2. **Open** `index.html` in your favorite browser.
+2. **Open** `index.html` in your favorite browser.  
    That's it — no installation, no dependencies.
 
 3. Sit back and admire the effort. 😎
@@ -69,16 +67,15 @@ To see this project in action:
 
 ## 🌐 Future Goals
 
-* 📱 **Full responsiveness** for mobile and tablet devices
-* 🧠 Adding **JavaScript logic** to enable features like email validation
-* 🎞️ Adding **carousels** for movies and possibly even trailer previews
+* 🧠 Adding **JavaScript logic** to enable features like email validation  
+* 🎞️ Adding **carousels** for movies and possibly even trailer previews  
 * 🌍 Hosting it online (GitHub Pages / Netlify)
 
 ---
 
 ## 🙋‍♂️ About the Creator
 
-**Name**: Muhammad Aswab Khalil
+**Name**: Muhammad Aswab Khalil  
 **GitHub**: [aswab007](https://github.com/aswab007)
 
 A passionate learner diving into front-end design with curiosity, determination, and a love for clean UI.
@@ -87,15 +84,15 @@ A passionate learner diving into front-end design with curiosity, determination,
 
 ## ⚠️ Legal Disclaimer
 
-This clone is purely for **learning and educational** purposes.
-I do not own or claim any rights to Netflix branding, logos, or trademarks.
+This clone is purely for **learning and educational** purposes.  
+I do not own or claim any rights to Netflix branding, logos, or trademarks.  
 All official assets belong to **Netflix, Inc.**
 
 ---
 
 ## 🎉 The Final Credits
 
-And here’s the part where the screen fades to black... 🎞️
+And here’s the part where the screen fades to black... 🎞️  
 You stuck around till the end of the README — and that’s awesome.
 
 If you're someone who's just starting out, remember:
@@ -104,11 +101,12 @@ If you're someone who's just starting out, remember:
 
 This project might seem simple now, but it’s a building block. One line of code at a time, one pixel adjusted with patience, one bug that took hours to squash — **you’re becoming the developer you’re meant to be**.
 
-Keep learning. Keep experimenting. Break things. Fix them.
-And remember…
+Keep learning. Keep experimenting. Break things. Fix them.  
+And remember…  
 **Netflix didn’t get built in a day — but your clone? That’s a damn good start! 💪🔥**
 
 ---
 
-Happy coding! 🚀
+Happy coding! 🚀  
 — *Aswab Khalil*
+
